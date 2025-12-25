@@ -1,0 +1,52 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "Segoe UI", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  transition-duration: 150ms;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  height: 100dvh;
+  overflow: hidden;
+}
+
+main#admin {
+  grid-template-columns: 200px 1fr;
+}
+
+main#staff section {
+  height: calc(100dvh - 64px);
+}
+
+.invalid-feedback {
+  width: auto!important;
+}
+
+@media (min-width: 768px) {
+  .w-md-75 {
+    width: 75%!important;
+  }
+}
+
+.btn:hover {
+  .text-muted {
+    color: white!important
+  }
+}
+
+.hover-bg-light:hover {
+  background-color: #f8f9fa !important;
+}
